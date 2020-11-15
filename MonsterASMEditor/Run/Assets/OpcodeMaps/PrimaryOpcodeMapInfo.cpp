@@ -315,6 +315,3 @@
 /* 0xFD	STD												*/
 /* 0xFE	Group 4 Eb										*/
 /* 0xFF	Group 5											*/
-{
-
-}
