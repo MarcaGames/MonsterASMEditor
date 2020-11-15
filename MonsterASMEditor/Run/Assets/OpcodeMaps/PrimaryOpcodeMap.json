@@ -1,0 +1,1037 @@
+{
+	"mapindex": 0,
+	"entries": [
+		/*0x00*/ { "value": { "syntax": "ADD %Eb, %Gb" } },
+		/*0x01*/ { "value": { "syntax": "ADD %Ev, %Gv" } },
+		/*0x02*/ { "value": { "syntax": "ADD %Gb, %Eb" } },
+		/*0x03*/ { "value": { "syntax": "ADD %Gv, %Ev" } },
+		/*0x04*/ { "value": { "syntax": "ADD %AL, %Ib" } },
+		/*0x05*/ { "value": { "syntax": "ADD %rAX, %Iz" } },
+		/*0x06*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "PUSH %ES" }
+		},
+		/*0x07*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "POP %ES" }
+		},
+		/*0x08*/ { "value": { "syntax": "OR %Eb, %Gb" } },
+		/*0x09*/ { "value": { "syntax": "OR %Ev, %Gv" } },
+		/*0x0A*/ { "value": { "syntax": "OR %Gb, %Eb" } },
+		/*0x0B*/ { "value": { "syntax": "OR %Gv, %Ev" } },
+		/*0x0C*/ { "value": { "syntax": "OR %AL, %Ib" } },
+		/*0x0D*/ { "value": { "syntax": "OR %rAX, %Iz" } },
+		/*0x0E*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "PUSH %CS" }
+		},
+		/*0x0F*/ { "value": { "valid": false } },
+		/*0x10*/ { "value": { "syntax": "ADC %Eb, %Gb" } },
+		/*0x11*/ { "value": { "syntax": "ADC %Ev, %Gv" } },
+		/*0x12*/ { "value": { "syntax": "ADC %Gb, %Eb" } },
+		/*0x13*/ { "value": { "syntax": "ADC %Gv, %Ev" } },
+		/*0x14*/ { "value": { "syntax": "ADC %AL, %Ib" } },
+		/*0x15*/ { "value": { "syntax": "ADC %rAX, %Iz" } },
+		/*0x16*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "PUSH %SS" }
+		},
+		/*0x17*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "POP %SS" }
+		},
+		/*0x18*/ { "value": { "syntax": "SBB %Eb, %Gb" } },
+		/*0x19*/ { "value": { "syntax": "SBB %Ev, %Gv" } },
+		/*0x1A*/ { "value": { "syntax": "SBB %Gb, %Eb" } },
+		/*0x1B*/ { "value": { "syntax": "SBB %Gv, %Ev" } },
+		/*0x1C*/ { "value": { "syntax": "SBB %AL, %Ib" } },
+		/*0x1D*/ { "value": { "syntax": "SBB %rAX, %Iz" } },
+		/*0x1E*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "PUSH %DS" }
+		},
+		/*0x1F*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "POP %DS" }
+		},
+		/*0x20*/ { "value": { "syntax": "AND %Eb, %Gb" } },
+		/*0x21*/ { "value": { "syntax": "AND %Ev, %Gv" } },
+		/*0x22*/ { "value": { "syntax": "AND %Gb, %Eb" } },
+		/*0x23*/ { "value": { "syntax": "AND %Gv, %Ev" } },
+		/*0x24*/ { "value": { "syntax": "AND %AL, %Ib" } },
+		/*0x25*/ { "value": { "syntax": "AND %rAX, %Iz" } },
+		/*0x26*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "SEG %ES" }
+		},
+		/*0x27*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "DAA" }
+		},
+		/*0x28*/ { "value": { "syntax": "SUB %Eb, %Gb" } },
+		/*0x29*/ { "value": { "syntax": "SUB %Ev, %Gv" } },
+		/*0x2A*/ { "value": { "syntax": "SUB %Gb, %Eb" } },
+		/*0x2B*/ { "value": { "syntax": "SUB %Gv, %Ev" } },
+		/*0x2C*/ { "value": { "syntax": "SUB %AL, %Ib" } },
+		/*0x2D*/ { "value": { "syntax": "SUB %rAX, %Iz" } },
+		/*0x2E*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "SEG %CS" }
+		},
+		/*0x2F*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "DAS" }
+		},
+		/*0x30*/ { "value": { "syntax": "XOR %Eb, %Gb" } },
+		/*0x31*/ { "value": { "syntax": "XOR %Ev, %Gv" } },
+		/*0x32*/ { "value": { "syntax": "XOR %Gb, %Eb" } },
+		/*0x33*/ { "value": { "syntax": "XOR %Gv, %Ev" } },
+		/*0x34*/ { "value": { "syntax": "XOR %AL, %Ib" } },
+		/*0x35*/ { "value": { "syntax": "XOR %rAX, %Iz" } },
+		/*0x36*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "SEG %SS" }
+		},
+		/*0x37*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "AAA" }
+		},
+		/*0x38*/ { "value": { "syntax": "CMP %Eb, %Gb" } },
+		/*0x39*/ { "value": { "syntax": "CMP %Ev, %Gv" } },
+		/*0x3A*/ { "value": { "syntax": "CMP %Gb, %Eb" } },
+		/*0x3B*/ { "value": { "syntax": "CMP %Gv, %Ev" } },
+		/*0x3C*/ { "value": { "syntax": "CMP %AL, %Ib" } },
+		/*0x3D*/ { "value": { "syntax": "CMP %rAX, %Iz" } },
+		/*0x3E*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "SEG %DS" }
+		},
+		/*0x3F*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "AAS" }
+		},
+		/*0x40*/ { "value": { "syntax": "INC %eAX" } },
+		/*0x41*/ { "value": { "syntax": "INC %eCX" } },
+		/*0x42*/ { "value": { "syntax": "INC %eDX" } },
+		/*0x43*/ { "value": { "syntax": "INC %eBX" } },
+		/*0x44*/ { "value": { "syntax": "INC %eSP" } },
+		/*0x45*/ { "value": { "syntax": "INC %eBP" } },
+		/*0x46*/ { "value": { "syntax": "INC %eSI" } },
+		/*0x47*/ { "value": { "syntax": "INC %eDI" } },
+		/*0x48*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "DEC %eAX" }
+		},
+		/*0x49*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "DEC %eCX" }
+		},
+		/*0x4A*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "DEC %eDX" }
+		},
+		/*0x4B*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "DEC %eBX" }
+		},
+		/*0x4C*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "DEC %eSP" }
+		},
+		/*0x4D*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "DEC %eBP" }
+		},
+		/*0x4E*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "DEC %eSI" }
+		},
+		/*0x4F*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "DEC %eDI" }
+		},
+		/*0x50*/ {
+			"opcodes": [
+				{ "value": { "syntax": "PUSH %rAX" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "PUSH %r8" }
+				}
+			]
+		},
+		/*0x51*/ {
+			"opcodes": [
+				{ "value": { "syntax": "PUSH %rCX" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "PUSH %r9" }
+				}
+			]
+		},
+		/*0x52*/ {
+			"opcodes": [
+				{ "value": { "syntax": "PUSH %rDX" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "PUSH %r10" }
+				}
+			]
+		},
+		/*0x53*/ {
+			"opcodes": [
+				{ "value": { "syntax": "PUSH %rBX" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "PUSH %r11" }
+				}
+			]
+		},
+		/*0x54*/ {
+			"opcodes": [
+				{ "value": { "syntax": "PUSH %rSP" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "PUSH %r12" }
+				}
+			]
+		},
+		/*0x55*/ {
+			"opcodes": [
+				{ "value": { "syntax": "PUSH %rBP" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "PUSH %r13" }
+				}
+			]
+		},
+		/*0x56*/ {
+			"opcodes": [
+				{ "value": { "syntax": "PUSH %rSI" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "PUSH %r14" }
+				}
+			]
+		},
+		/*0x57*/ {
+			"opcodes": [
+				{ "value": { "syntax": "PUSH %rDI" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "PUSH %r15" }
+				}
+			]
+		},
+		/*0x58*/ {
+			"opcodes": [
+				{ "value": { "syntax": "POP %rAX" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "POP %r8" }
+				}
+			]
+		},
+		/*0x59*/ {
+			"opcodes": [
+				{ "value": { "syntax": "POP %rCX" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "POP %r9" }
+				}
+			]
+		},
+		/*0x5A*/ {
+			"opcodes": [
+				{ "value": { "syntax": "POP %rDX" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "POP %r10" }
+				}
+			]
+		},
+		/*0x5B*/ {
+			"opcodes": [
+				{ "value": { "syntax": "POP %rBX" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "POP %r11" }
+				}
+			]
+		},
+		/*0x5C*/ {
+			"opcodes": [
+				{ "value": { "syntax": "POP %rSP" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "POP %r12" }
+				}
+			]
+		},
+		/*0x5D*/ {
+			"opcodes": [
+				{ "value": { "syntax": "POP %rBP" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "POP %r13" }
+				}
+			]
+		},
+		/*0x5E*/ {
+			"opcodes": [
+				{ "value": { "syntax": "POP %rSI" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "POP %r14" }
+				}
+			]
+		},
+		/*0x5F*/ {
+			"opcodes": [
+				{ "value": { "syntax": "POP %rDI" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "POP %r15" }
+				}
+			]
+		},
+		/*0x60*/ {
+			"opcodes": [
+				{
+					"key": {
+						"modes": [ "LEGACY MODE", "PROTECTED MODE" ],
+						"operandSize": 16
+					},
+					"value": { "syntax": "PUSHA" }
+				},
+				{
+					"key": {
+						"modes": [ "LEGACY MODE", "PROTECTED MODE" ],
+						"operandSize": 32
+					},
+					"value": { "syntax": "PUSHAD" }
+				}
+			]
+		},
+		/*0x61*/ {
+			"opcodes": [
+				{
+					"key": {
+						"modes": [ "LEGACY MODE", "PROTECTED MODE" ],
+						"operandSize": 16
+					},
+					"value": { "syntax": "POPA" }
+				},
+				{
+					"key": {
+						"modes": [ "LEGACY MODE", "PROTECTED MODE" ],
+						"operandSize": 32
+					},
+					"value": { "syntax": "POPAD" }
+				}
+			]
+		},
+		/*0x62*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "BOUND %Gv, %Ma" }
+		},
+		/*0x63*/ {
+			"opcodes": [
+				{
+					"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+					"value": { "syntax": "ARPL %Ew, %Gw" }
+				},
+				{
+					"key": { "modes": [ "LONG MODE" ] },
+					"value": { "syntax": "MOVSXD %Gv, %Ez" }
+				}
+			]
+		},
+		/*0x64*/ { "value": { "valid": false } },
+		/*0x65*/ { "value": { "valid": false } },
+		/*0x66*/ { "value": { "valid": false } },
+		/*0x67*/ { "value": { "valid": false } },
+		/*0x68*/ { "value": { "syntax": "PUSH %Iz" } },
+		/*0x69*/ { "value": { "syntax": "IMUL %Gv, %Ev, %Iz" } },
+		/*0x6A*/ { "value": { "syntax": "PUSH %Ib" } },
+		/*0x6B*/ { "value": { "syntax": "IMUL %Gv, %Ev, %Ib" } },
+		/*0x6C*/ { "value": { "syntax": "INSB %Yb, %DX" } },
+		/*0x6D*/ {
+			"opcodes": [
+				{
+					"key": { "operandSize": 16 },
+					"value": { "syntax": "INSW %Yz, %DX" }
+				},
+				{
+					"key": { "operandSize": 32 },
+					"value": { "syntax": "INSD %Yz, %DX" }
+				}
+			]
+		},
+		/*0x6E*/ { "value": { "syntax": "OUTSB %DX, %Xb" } },
+		/*0x6F*/ {
+			"opcodes": [
+				{
+					"key": { "operandSize": 16 },
+					"value": { "syntax": "OUTSW %Yz, %DX" }
+				},
+				{
+					"key": { "operandSize": 32 },
+					"value": { "syntax": "OUTSD %Yz, %DX" }
+				}
+			]
+		},
+		/*0x70*/ { "value": { "syntax": "JO %Jb" } },
+		/*0x71*/ { "value": { "syntax": "JNO %Jb" } },
+		/*0x72*/ { "value": { "syntax": "JB %Jb" } },
+		/*0x73*/ { "value": { "syntax": "JNB %Jb" } },
+		/*0x74*/ { "value": { "syntax": "JZ %Jb" } },
+		/*0x75*/ { "value": { "syntax": "JNZ %Jb" } },
+		/*0x76*/ { "value": { "syntax": "JBE %Jb" } },
+		/*0x77*/ { "value": { "syntax": "JNBE %Jb" } },
+		/*0x78*/ { "value": { "syntax": "JS %Jb" } },
+		/*0x79*/ { "value": { "syntax": "JNS %Jb" } },
+		/*0x7A*/ { "value": { "syntax": "JP %Jb" } },
+		/*0x7B*/ { "value": { "syntax": "JNP %Jb" } },
+		/*0x7C*/ { "value": { "syntax": "JL %Jb" } },
+		/*0x7D*/ { "value": { "syntax": "JNL %Jb" } },
+		/*0x7E*/ { "value": { "syntax": "JLE %Jb" } },
+		/*0x7F*/ { "value": { "syntax": "JNLE %Jb" } },
+		/*0x80*/ { "value": { "valid": false } },
+		/*0x81*/ { "value": { "valid": false } },
+		/*0x82*/ { "value": { "valid": false } },
+		/*0x83*/ { "value": { "valid": false } },
+		/*0x84*/ { "value": { "syntax": "TEST %Eb, %Gb" } },
+		/*0x85*/ { "value": { "syntax": "TEST %Ev, %Gv" } },
+		/*0x86*/ { "value": { "syntax": "XCHG %Eb, %Gb" } },
+		/*0x87*/ { "value": { "syntax": "XCHG %Ev, %Gv" } },
+		/*0x88*/ { "value": { "syntax": "MOV %Eb, %Gb" } },
+		/*0x89*/ { "value": { "syntax": "MOV %Ev, %Gv" } },
+		/*0x8A*/ { "value": { "syntax": "MOV %Gb, %Eb" } },
+		/*0x8B*/ { "value": { "syntax": "MOV %Gv, %Ev" } },
+		/*0x8C*/ { "value": { "syntax": "MOV %Mw/Rv, %Sw" } },
+		/*0x8D*/ { "value": { "syntax": "LEA %Gv, %M" } },
+		/*0x8E*/ { "value": { "syntax": "MOV %Sw, %Ew" } },
+		/*0x8F*/ { "value": { "valid": false } },
+		/*0x90*/ {
+			"opcodes": [
+				{ "value": { "syntax": "NOP" } },
+				{
+					"key": { "legacyPrefixes": [ 243 ] },
+					"value": { "syntax": "PAUSE" }
+				},
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "XCHG %r8, %rAX" }
+				}
+			]
+		},
+		/*0x91*/ {
+			"opcodes": [
+				{ "value": { "syntax": "XCHG %rCX, %rAX" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "XCHG %r9, %rAX" }
+				}
+			]
+		},
+		/*0x92*/ {
+			"opcodes": [
+				{ "value": { "syntax": "XCHG %rDX, %rAX" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "XCHG %r10, %rAX" }
+				}
+			]
+		},
+		/*0x93*/ {
+			"opcodes": [
+				{ "value": { "syntax": "XCHG %rBX, %rAX" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "XCHG %r11, %rAX" }
+				}
+			]
+		},
+		/*0x94*/ {
+			"opcodes": [
+				{ "value": { "syntax": "XCHG %rSP, %rAX" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "XCHG %r12, %rAX" }
+				}
+			]
+		},
+		/*0x95*/ {
+			"opcodes": [
+				{ "value": { "syntax": "XCHG %rBP, %rAX" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "XCHG %r13, %rAX" }
+				}
+			]
+		},
+		/*0x96*/ {
+			"opcodes": [
+				{ "value": { "syntax": "XCHG %rSI, %rAX" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "XCHG %r14, %rAX" }
+				}
+			]
+		},
+		/*0x97*/ {
+			"opcodes": [
+				{ "value": { "syntax": "XCHG %rDI, %rAX" } },
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "XCHG %r15, %rAX" }
+				}
+			]
+		},
+		/*0x98*/ {
+			"opcodes": [
+				{
+					"key": { "operandSize": 16 },
+					"value": { "syntax": "CBW" }
+				},
+				{
+					"key": { "operandSize": 32 },
+					"value": { "syntax": "CWDE" }
+				},
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "CDQE" }
+				}
+			]
+		},
+		/*0x99*/ {
+			"opcodes": [
+				{
+					"key": { "operandSize": 16 },
+					"value": { "syntax": "CWD" }
+				},
+				{
+					"key": { "operandSize": 32 },
+					"value": { "syntax": "CDQ" }
+				},
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "CQO" }
+				}
+			]
+		},
+		/*0x9A*/ { "value": { "syntax": "CALL %Ap" } },
+		/*0x9B*/ { "value": { "syntax": "FWAIT" } },
+		/*0x9C*/ {
+			"opcodes": [
+				{
+					"key": { "operandSize": 16 },
+					"value": { "syntax": "PUSHF %Fv" }
+				},
+				{
+					"key": { "operandSize": 32 },
+					"value": { "syntax": "PUSHD %Fv" }
+				},
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "PUSHQ %Fv" }
+				}
+			]
+		},
+		/*0x9D*/ {
+			"opcodes": [
+				{
+					"key": { "operandSize": 16 },
+					"value": { "syntax": "POPF %Fv" }
+				},
+				{
+					"key": { "operandSize": 32 },
+					"value": { "syntax": "POPD %Fv" }
+				},
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "POPQ %Fv" }
+				}
+			]
+		},
+		/*0x9E*/ { "value": { "syntax": "SAHF" } },
+		/*0x9F*/ { "value": { "syntax": "LAHF" } },
+		/*0xA0*/ { "value": { "syntax": "MOV %AL, %Ob" } },
+		/*0xA1*/ { "value": { "syntax": "MOV %rAX, %Ov" } },
+		/*0xA2*/ { "value": { "syntax": "MOV %Ob, %AL" } },
+		/*0xA3*/ { "value": { "syntax": "MOV %Ov, %rAX" } },
+		/*0xA4*/ { "value": { "syntax": "MOVSB %Yb, %Xb" } },
+		/*0xA5*/ {
+			"opcodes": [
+				{
+					"key": { "operandSize": 16 },
+					"value": { "syntax": "MOVSW %Yv, %Xv" }
+				},
+				{
+					"key": { "operandSize": 32 },
+					"value": { "syntax": "MOVSD %Yv, %Xv" }
+				},
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "MOVSQ %Yv, %Xv" }
+				}
+			]
+		},
+		/*0xA6*/ { "value": { "syntax": "CMPSB %Xb, %Yb" } },
+		/*0xA7*/ {
+			"opcodes": [
+				{
+					"key": { "operandSize": 16 },
+					"value": { "syntax": "CMPSW %Yv, %Xv" }
+				},
+				{
+					"key": { "operandSize": 32 },
+					"value": { "syntax": "CMPSD %Yv, %Xv" }
+				},
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "CMPSQ %Yv, %Xv" }
+				}
+			]
+		},
+		/*0xA8*/ { "value": { "syntax": "TEST %AL, %Ib" } },
+		/*0xA9*/ { "value": { "syntax": "TEST %rAX, %Iz" } },
+		/*0xAA*/ { "value": { "syntax": "STOSB %Yb, %AL" } },
+		/*0xAB*/ {
+			"opcodes": [
+				{
+					"key": { "operandSize": 16 },
+					"value": { "syntax": "STOSW %Yv, %rAX" }
+				},
+				{
+					"key": { "operandSize": 32 },
+					"value": { "syntax": "STOSD %Yv, %rAX" }
+				},
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "STOSQ %Yv, %rAX" }
+				}
+			]
+		},
+		/*0xAC*/ { "value": { "syntax": "LODSB %AL, %Xb" } },
+		/*0xAD*/ {
+			"opcodes": [
+				{
+					"key": { "operandSize": 16 },
+					"value": { "syntax": "LODSW %rAX, %Xv" }
+				},
+				{
+					"key": { "operandSize": 32 },
+					"value": { "syntax": "LODSD %rAX, %Xv" }
+				},
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "LODSQ %rAX, %Xv" }
+				}
+			]
+		},
+		/*0xAE*/ { "value": { "syntax": "SCASB %AL, %Yb" } },
+		/*0xAF*/ {
+			"opcodes": [
+				{
+					"key": { "operandSize": 16 },
+					"value": { "syntax": "SCASW %rAX, %Yv" }
+				},
+				{
+					"key": { "operandSize": 32 },
+					"value": { "syntax": "SCASD %rAX, %Yv" }
+				},
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "SCASQ %rAX, %Yv" }
+				}
+			]
+		},
+		/*0xB0*/ {
+			"opcodes": [
+				{
+					"value": { "syntax": "MOV %AL, %Ib" }
+				},
+				{
+					"key": { "modes": [ "LONG MODE" ] },
+					"value": { "syntax": "MOV %r8b, %Ib" }
+				}
+			]
+		},
+		/*0xB1*/ {
+			"opcodes": [
+				{
+					"value": { "syntax": "MOV %CL, %Ib" }
+				},
+				{
+					"key": { "modes": [ "LONG MODE" ] },
+					"value": { "syntax": "MOV %r9b, %Ib" }
+				}
+			]
+		},
+		/*0xB2*/ {
+			"opcodes": [
+				{
+					"value": { "syntax": "MOV %DL, %Ib" }
+				},
+				{
+					"key": { "modes": [ "LONG MODE" ] },
+					"value": { "syntax": "MOV %r10b, %Ib" }
+				}
+			]
+		},
+		/*0xB3*/ {
+			"opcodes": [
+				{
+					"value": { "syntax": "MOV %BL, %Ib" }
+				},
+				{
+					"key": { "modes": [ "LONG MODE" ] },
+					"value": { "syntax": "MOV %r11b, %Ib" }
+				}
+			]
+		},
+		/*0xB4*/ {
+			"opcodes": [
+				{
+					"value": { "syntax": "MOV %AH, %Ib" }
+				},
+				{
+					"key": { "modes": [ "LONG MODE" ] },
+					"value": { "syntax": "MOV %r12b, %Ib" }
+				}
+			]
+		},
+		/*0xB5*/ {
+			"opcodes": [
+				{
+					"value": { "syntax": "MOV %CH, %Ib" }
+				},
+				{
+					"key": { "modes": [ "LONG MODE" ] },
+					"value": { "syntax": "MOV %r13b, %Ib" }
+				}
+			]
+		},
+		/*0xB6*/ {
+			"opcodes": [
+				{
+					"value": { "syntax": "MOV %DH, %Ib" }
+				},
+				{
+					"key": { "modes": [ "LONG MODE" ] },
+					"value": { "syntax": "MOV %r14b, %Ib" }
+				}
+			]
+		},
+		/*0xB7*/ {
+			"opcodes": [
+				{
+					"value": { "syntax": "MOV %BH, %Ib" }
+				},
+				{
+					"key": { "modes": [ "LONG MODE" ] },
+					"value": { "syntax": "MOV %r15b, %Ib" }
+				}
+			]
+		},
+		/*0xB8*/ {
+			"opcodes": [
+				{
+					"value": { "syntax": "MOV %rAX, %Iv" }
+				},
+				{
+					"key": { "modes": [ "LONG MODE" ] },
+					"value": { "syntax": "MOV %r8, %Iv" }
+				}
+			]
+		},
+		/*0xB9*/ {
+			"opcodes": [
+				{
+					"value": { "syntax": "MOV %rCX, %Iv" }
+				},
+				{
+					"key": { "modes": [ "LONG MODE" ] },
+					"value": { "syntax": "MOV %r9, %Iv" }
+				}
+			]
+		},
+		/*0xBA*/ {
+			"opcodes": [
+				{
+					"value": { "syntax": "MOV %rDX, %Iv" }
+				},
+				{
+					"key": { "modes": [ "LONG MODE" ] },
+					"value": { "syntax": "MOV %r10, %Iv" }
+				}
+			]
+		},
+		/*0xBB*/ {
+			"opcodes": [
+				{
+					"value": { "syntax": "MOV %rBX, %Iv" }
+				},
+				{
+					"key": { "modes": [ "LONG MODE" ] },
+					"value": { "syntax": "MOV %r11, %Iv" }
+				}
+			]
+		},
+		/*0xBC*/ {
+			"opcodes": [
+				{
+					"value": { "syntax": "MOV %rSP, %Iv" }
+				},
+				{
+					"key": { "modes": [ "LONG MODE" ] },
+					"value": { "syntax": "MOV %r12, %Iv" }
+				}
+			]
+		},
+		/*0xBD*/ {
+			"opcodes": [
+				{
+					"value": { "syntax": "MOV %rBP, %Iv" }
+				},
+				{
+					"key": { "modes": [ "LONG MODE" ] },
+					"value": { "syntax": "MOV %r13, %Iv" }
+				}
+			]
+		},
+		/*0xBE*/ {
+			"opcodes": [
+				{
+					"value": { "syntax": "MOV %rSI, %Iv" }
+				},
+				{
+					"key": { "modes": [ "LONG MODE" ] },
+					"value": { "syntax": "MOV %r14, %Iv" }
+				}
+			]
+		},
+		/*0xBF*/ {
+			"opcodes": [
+				{
+					"value": { "syntax": "MOV %rDI, %Iv" }
+				},
+				{
+					"key": { "modes": [ "LONG MODE" ] },
+					"value": { "syntax": "MOV %r15, %Iv" }
+				}
+			]
+		},
+		/*0xC0*/ { "value": { "valid": false } },
+		/*0xC1*/ { "value": { "valid": false } },
+		/*0xC2*/ { "value": { "valid": false } },
+		/*0xC3*/ { "value": { "valid": false } },
+		/*0xC4*/ { "value": { "syntax": "RET NEAR %Iw" } },
+		/*0xC5*/ { "value": { "syntax": "RET NEAR" } },
+		/*0xC6*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "LES %Gz, %Mp" }
+		},
+		/*0xC7*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "LDS %Gz, %Mp" }
+		},
+		/*0xC8*/ { "value": { "syntax": "ENTER %Iw, %Ib" } },
+		/*0xC9*/ { "value": { "syntax": "LEAVE" } },
+		/*0xCA*/ { "value": { "syntax": "RET FAR %Iw" } },
+		/*0xCB*/ { "value": { "syntax": "RET FAR" } },
+		/*0xCC*/ { "value": { "syntax": "INT3" } },
+		/*0xCD*/ { "value": { "syntax": "INT %Ib" } },
+		/*0xCE*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "INTO" }
+		},
+		/*0xCF*/ {
+			"opcodes": [
+				{
+					"key": { "operandSize": 16 },
+					"value": { "syntax": "IRET" }
+				},
+				{
+					"key": { "operandSize": 32 },
+					"value": { "syntax": "IRETD" }
+				},
+				{
+					"key": {
+						"modes": [ "LONG MODE" ],
+						"operandSize": 64
+					},
+					"value": { "syntax": "IRETQ" }
+				}
+			]
+		},
+		/*0xD0*/ { "value": { "valid": false } },
+		/*0xD1*/ { "value": { "valid": false } },
+		/*0xD2*/ { "value": { "valid": false } },
+		/*0xD3*/ { "value": { "valid": false } },
+		/*0xD4*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "AAM %Ib" }
+		},
+		/*0xD5*/ {
+			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "AAD %Ib" }
+		},
+		/*0xD6*/ { "value": { "valid": false } },
+		/*0xD7*/ {
+			"opcodes": [
+				{ "value": { "syntax": "XLAT" } },
+				{
+					"key": { "operandSize": 8 },
+					"value": { "syntax": "XLATB" }
+				}
+			]
+		},
+		/*0xD8*/ { "value": { "valid": false } },
+		/*0xD9*/ { "value": { "valid": false } },
+		/*0xDA*/ { "value": { "valid": false } },
+		/*0xDB*/ { "value": { "valid": false } },
+		/*0xDC*/ { "value": { "valid": false } },
+		/*0xDD*/ { "value": { "valid": false } },
+		/*0xDE*/ { "value": { "valid": false } },
+		/*0xDF*/ { "value": { "valid": false } },
+		/*0xE0*/ { "value": { "syntax": "LOOPNE %Jb" } },
+		/*0xE1*/ { "value": { "syntax": "LOOPE %Jb" } },
+		/*0xE2*/ { "value": { "syntax": "LOOP %Jb" } },
+		/*0xE3*/ {
+			"key": { "modes": [ "LONG MODE" ] },
+			"value": { "syntax": "JRCXZ %Jb" }
+		},
+		/*0xE4*/ { "value": { "syntax": "IN %AL, %Ib" } },
+		/*0xE5*/ { "value": { "syntax": "IN %eAX, %Ib" } },
+		/*0xE6*/ { "value": { "syntax": "OUT %Ib, %AL" } },
+		/*0xE7*/ { "value": { "syntax": "OUT %Ib, %eAX" } },
+		/*0xE8*/ { "value": { "syntax": "CALL %Jz" } },
+		/*0xE9*/ { "value": { "syntax": "JMP %Jz" } },
+		/*0xEA*/ {
+			"keys": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
+			"value": { "syntax": "JMP %Ap" }
+		},
+		/*0xEB*/ { "value": { "syntax": "JMP %Jb" } },
+		/*0xEC*/ { "value": { "syntax": "IN %AL, %DX" } },
+		/*0xED*/ { "value": { "syntax": "IN %eAX, %DX" } },
+		/*0xEE*/ { "value": { "syntax": "OUT %DX, %AL" } },
+		/*0xEF*/ { "value": { "syntax": "OUT %DX, %eAX" } },
+		/*0xF0*/ { "value": { "valid": false } },
+		/*0xF1*/ { "value": { "syntax": "INT1" } },
+		/*0xF2*/ { "value": { "valid": false } },
+		/*0xF3*/ { "value": { "valid": false } },
+		/*0xF4*/ { "value": { "syntax": "HLT" } },
+		/*0xF5*/ { "value": { "syntax": "CMC" } },
+		/*0xF6*/ { "value": { "valid": false } },
+		/*0xF7*/ { "value": { "valid": false } },
+		/*0xF8*/ { "value": { "syntax": "CLC" } },
+		/*0xF9*/ { "value": { "syntax": "STC" } },
+		/*0xFA*/ { "value": { "syntax": "CLI" } },
+		/*0xFB*/ { "value": { "syntax": "STI" } },
+		/*0xFC*/ { "value": { "syntax": "CLD" } },
+		/*0xFD*/ { "value": { "syntax": "STD" } },
+		/*0xFE*/ { "value": { "valid": false } },
+		/*0xFF*/ { "value": { "valid": false } }
+	]
+}

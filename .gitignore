@@ -1,32 +1,25 @@
-# Prerequisites
-*.d
+/.build-*/
+/.codelite/
+/.gradle/
+/.idea/
+/.vs/
+/Build/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+/*.gradle
+/*.iml
+/*.sln
+/*.workspace
+/*.xcworkspace
+/gradle/wrapper/gradle-wrapper.jar
+/gradle/wrapper/gradle-wrapper.properties
+/gradle.properties
+/gradlew
+/gradlew.bat
+/local.properties
+/Makefile
+/*.Make
 
-# Precompiled Headers
-*.gch
-*.pch
+premake5.exe
+premake5.bat
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+/Output/

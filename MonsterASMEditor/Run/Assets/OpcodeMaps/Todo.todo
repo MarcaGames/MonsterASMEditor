@@ -1,0 +1,24 @@
+# MAIN TODO:
+
+1.	Make a JSON parser that can handle the opcode maps json files.
+2.	Read all instructions and convert them to assembly code from a binary file.
+3.	Read all instructions and convert them to assembly code from an executable file.
+4.	Assemble the instructions read into a binary file.
+5.	Assemble the instructions read into an executable file.
+6.	Make a GUI with editing of a file in either assembly or hexadecimal.
+7.	Make the GUI auto assemble or disassemnble, based on the changes made in the GUI.
+8.	Make it into an IDE using the next steps:
+9.		Add support for multiple files.
+10.		Have it start off as an empty assembly file.
+11.		Add content assist.
+12.		Syntax highlighting.
+13.		Make an emulator of an x86_64 system to debug the code.
+14.		Debugging tools:
+15.			Stepping.
+16.			Memory view.
+17.			Register view.
+
+# SIDE TODO (do in any order):
+
+1.	Add in the extended opcodes to PrimaryOpcodeMap.json
+2.	Create all opcode maps.
