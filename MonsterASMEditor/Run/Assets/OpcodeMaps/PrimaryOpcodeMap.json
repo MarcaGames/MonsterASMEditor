@@ -1,156 +1,352 @@
 {
+	"_comment": "You can search for any opcode using hex formatting, just make sure to use uppercase A,B,C,D,E,F",
 	"mapindex": 0,
 	"entries": [
-		/*0x00*/ { "value": { "syntax": "ADD %Eb, %Gb" } },
-		/*0x01*/ { "value": { "syntax": "ADD %Ev, %Gv" } },
-		/*0x02*/ { "value": { "syntax": "ADD %Gb, %Eb" } },
-		/*0x03*/ { "value": { "syntax": "ADD %Gv, %Ev" } },
-		/*0x04*/ { "value": { "syntax": "ADD %AL, %Ib" } },
-		/*0x05*/ { "value": { "syntax": "ADD %rAX, %Iz" } },
-		/*0x06*/ {
+		{
+			"_comment": "0x00",
+			"value": { "syntax": "ADD %Eb, %Gb" }
+		},
+		{
+			"_comment": "0x01",
+			"value": { "syntax": "ADD %Ev, %Gv" }
+		},
+		{
+			"_comment": "0x02",
+			"value": { "syntax": "ADD %Gb, %Eb" }
+		},
+		{
+			"_comment": "0x03",
+			"value": { "syntax": "ADD %Gv, %Ev" }
+		},
+		{
+			"_comment": "0x04",
+			"value": { "syntax": "ADD %AL, %Ib" }
+		},
+		{
+			"_comment": "0x05",
+			"value": { "syntax": "ADD %rAX, %Iz" }
+		},
+		{
+			"_comment": "0x06",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "PUSH %ES" }
 		},
-		/*0x07*/ {
+		{
+			"_comment": "0x07",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "POP %ES" }
 		},
-		/*0x08*/ { "value": { "syntax": "OR %Eb, %Gb" } },
-		/*0x09*/ { "value": { "syntax": "OR %Ev, %Gv" } },
-		/*0x0A*/ { "value": { "syntax": "OR %Gb, %Eb" } },
-		/*0x0B*/ { "value": { "syntax": "OR %Gv, %Ev" } },
-		/*0x0C*/ { "value": { "syntax": "OR %AL, %Ib" } },
-		/*0x0D*/ { "value": { "syntax": "OR %rAX, %Iz" } },
-		/*0x0E*/ {
+		{
+			"_comment": "0x08",
+			"value": { "syntax": "OR %Eb, %Gb" }
+		},
+		{
+			"_comment": "0x09",
+			"value": { "syntax": "OR %Ev, %Gv" }
+		},
+		{
+			"_comment": "0x0A",
+			"value": { "syntax": "OR %Gb, %Eb" }
+		},
+		{
+			"_comment": "0x0B",
+			"value": { "syntax": "OR %Gv, %Ev" }
+		},
+		{
+			"_comment": "0x0C",
+			"value": { "syntax": "OR %AL, %Ib" }
+		},
+		{
+			"_comment": "0x0D",
+			"value": { "syntax": "OR %rAX, %Iz" }
+		},
+		{
+			"_comment": "0x0E",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "PUSH %CS" }
 		},
-		/*0x0F*/ { "value": { "valid": false } },
-		/*0x10*/ { "value": { "syntax": "ADC %Eb, %Gb" } },
-		/*0x11*/ { "value": { "syntax": "ADC %Ev, %Gv" } },
-		/*0x12*/ { "value": { "syntax": "ADC %Gb, %Eb" } },
-		/*0x13*/ { "value": { "syntax": "ADC %Gv, %Ev" } },
-		/*0x14*/ { "value": { "syntax": "ADC %AL, %Ib" } },
-		/*0x15*/ { "value": { "syntax": "ADC %rAX, %Iz" } },
-		/*0x16*/ {
+		{
+			"_comment": "0x0F",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0x10",
+			"value": { "syntax": "ADC %Eb, %Gb" }
+		},
+		{
+			"_comment": "0x11",
+			"value": { "syntax": "ADC %Ev, %Gv" }
+		},
+		{
+			"_comment": "0x12",
+			"value": { "syntax": "ADC %Gb, %Eb" }
+		},
+		{
+			"_comment": "0x13",
+			"value": { "syntax": "ADC %Gv, %Ev" }
+		},
+		{
+			"_comment": "0x14",
+			"value": { "syntax": "ADC %AL, %Ib" }
+		},
+		{
+			"_comment": "0x15",
+			"value": { "syntax": "ADC %rAX, %Iz" }
+		},
+		{
+			"_comment": "0x16",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "PUSH %SS" }
 		},
-		/*0x17*/ {
+		{
+			"_comment": "0x17",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "POP %SS" }
 		},
-		/*0x18*/ { "value": { "syntax": "SBB %Eb, %Gb" } },
-		/*0x19*/ { "value": { "syntax": "SBB %Ev, %Gv" } },
-		/*0x1A*/ { "value": { "syntax": "SBB %Gb, %Eb" } },
-		/*0x1B*/ { "value": { "syntax": "SBB %Gv, %Ev" } },
-		/*0x1C*/ { "value": { "syntax": "SBB %AL, %Ib" } },
-		/*0x1D*/ { "value": { "syntax": "SBB %rAX, %Iz" } },
-		/*0x1E*/ {
+		{
+			"_comment": "0x18",
+			"value": { "syntax": "SBB %Eb, %Gb" }
+		},
+		{
+			"_comment": "0x19",
+			"value": { "syntax": "SBB %Ev, %Gv" }
+		},
+		{
+			"_comment": "0x1A",
+			"value": { "syntax": "SBB %Gb, %Eb" }
+		},
+		{
+			"_comment": "0x1B",
+			"value": { "syntax": "SBB %Gv, %Ev" }
+		},
+		{
+			"_comment": "0x1C",
+			"value": { "syntax": "SBB %AL, %Ib" }
+		},
+		{
+			"_comment": "0x1D",
+			"value": { "syntax": "SBB %rAX, %Iz" }
+		},
+		{
+			"_comment": "0x1E",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "PUSH %DS" }
 		},
-		/*0x1F*/ {
+		{
+			"_comment": "0x1F",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "POP %DS" }
 		},
-		/*0x20*/ { "value": { "syntax": "AND %Eb, %Gb" } },
-		/*0x21*/ { "value": { "syntax": "AND %Ev, %Gv" } },
-		/*0x22*/ { "value": { "syntax": "AND %Gb, %Eb" } },
-		/*0x23*/ { "value": { "syntax": "AND %Gv, %Ev" } },
-		/*0x24*/ { "value": { "syntax": "AND %AL, %Ib" } },
-		/*0x25*/ { "value": { "syntax": "AND %rAX, %Iz" } },
-		/*0x26*/ {
+		{
+			"_comment": "0x20",
+			"value": { "syntax": "AND %Eb, %Gb" }
+		},
+		{
+			"_comment": "0x21",
+			"value": { "syntax": "AND %Ev, %Gv" }
+		},
+		{
+			"_comment": "0x22",
+			"value": { "syntax": "AND %Gb, %Eb" }
+		},
+		{
+			"_comment": "0x23",
+			"value": { "syntax": "AND %Gv, %Ev" }
+		},
+		{
+			"_comment": "0x24",
+			"value": { "syntax": "AND %AL, %Ib" }
+		},
+		{
+			"_comment": "0x25",
+			"value": { "syntax": "AND %rAX, %Iz" }
+		},
+		{
+			"_comment": "0x26",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "SEG %ES" }
 		},
-		/*0x27*/ {
+		{
+			"_comment": "0x27",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "DAA" }
 		},
-		/*0x28*/ { "value": { "syntax": "SUB %Eb, %Gb" } },
-		/*0x29*/ { "value": { "syntax": "SUB %Ev, %Gv" } },
-		/*0x2A*/ { "value": { "syntax": "SUB %Gb, %Eb" } },
-		/*0x2B*/ { "value": { "syntax": "SUB %Gv, %Ev" } },
-		/*0x2C*/ { "value": { "syntax": "SUB %AL, %Ib" } },
-		/*0x2D*/ { "value": { "syntax": "SUB %rAX, %Iz" } },
-		/*0x2E*/ {
+		{
+			"_comment": "0x28",
+			"value": { "syntax": "SUB %Eb, %Gb" }
+		},
+		{
+			"_comment": "0x29",
+			"value": { "syntax": "SUB %Ev, %Gv" }
+		},
+		{
+			"_comment": "0x2A",
+			"value": { "syntax": "SUB %Gb, %Eb" }
+		},
+		{
+			"_comment": "0x2B",
+			"value": { "syntax": "SUB %Gv, %Ev" }
+		},
+		{
+			"_comment": "0x2C",
+			"value": { "syntax": "SUB %AL, %Ib" }
+		},
+		{
+			"_comment": "0x2D",
+			"value": { "syntax": "SUB %rAX, %Iz" }
+		},
+		{
+			"_comment": "0x2E",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "SEG %CS" }
 		},
-		/*0x2F*/ {
+		{
+			"_comment": "0x2F",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "DAS" }
 		},
-		/*0x30*/ { "value": { "syntax": "XOR %Eb, %Gb" } },
-		/*0x31*/ { "value": { "syntax": "XOR %Ev, %Gv" } },
-		/*0x32*/ { "value": { "syntax": "XOR %Gb, %Eb" } },
-		/*0x33*/ { "value": { "syntax": "XOR %Gv, %Ev" } },
-		/*0x34*/ { "value": { "syntax": "XOR %AL, %Ib" } },
-		/*0x35*/ { "value": { "syntax": "XOR %rAX, %Iz" } },
-		/*0x36*/ {
+		{
+			"_comment": "0x30",
+			"value": { "syntax": "XOR %Eb, %Gb" }
+		},
+		{
+			"_comment": "0x31",
+			"value": { "syntax": "XOR %Ev, %Gv" }
+		},
+		{
+			"_comment": "0x32",
+			"value": { "syntax": "XOR %Gb, %Eb" }
+		},
+		{
+			"_comment": "0x33",
+			"value": { "syntax": "XOR %Gv, %Ev" }
+		},
+		{
+			"_comment": "0x34",
+			"value": { "syntax": "XOR %AL, %Ib" }
+		},
+		{
+			"_comment": "0x35",
+			"value": { "syntax": "XOR %rAX, %Iz" }
+		},
+		{
+			"_comment": "0x36",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "SEG %SS" }
 		},
-		/*0x37*/ {
+		{
+			"_comment": "0x37",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "AAA" }
 		},
-		/*0x38*/ { "value": { "syntax": "CMP %Eb, %Gb" } },
-		/*0x39*/ { "value": { "syntax": "CMP %Ev, %Gv" } },
-		/*0x3A*/ { "value": { "syntax": "CMP %Gb, %Eb" } },
-		/*0x3B*/ { "value": { "syntax": "CMP %Gv, %Ev" } },
-		/*0x3C*/ { "value": { "syntax": "CMP %AL, %Ib" } },
-		/*0x3D*/ { "value": { "syntax": "CMP %rAX, %Iz" } },
-		/*0x3E*/ {
+		{
+			"_comment": "0x38",
+			"value": { "syntax": "CMP %Eb, %Gb" }
+		},
+		{
+			"_comment": "0x39",
+			"value": { "syntax": "CMP %Ev, %Gv" }
+		},
+		{
+			"_comment": "0x3A",
+			"value": { "syntax": "CMP %Gb, %Eb" }
+		},
+		{
+			"_comment": "0x3B",
+			"value": { "syntax": "CMP %Gv, %Ev" }
+		},
+		{
+			"_comment": "0x3C",
+			"value": { "syntax": "CMP %AL, %Ib" }
+		},
+		{
+			"_comment": "0x3D",
+			"value": { "syntax": "CMP %rAX, %Iz" }
+		},
+		{
+			"_comment": "0x3E",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "SEG %DS" }
 		},
-		/*0x3F*/ {
+		{
+			"_comment": "0x3F",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "AAS" }
 		},
-		/*0x40*/ { "value": { "syntax": "INC %eAX" } },
-		/*0x41*/ { "value": { "syntax": "INC %eCX" } },
-		/*0x42*/ { "value": { "syntax": "INC %eDX" } },
-		/*0x43*/ { "value": { "syntax": "INC %eBX" } },
-		/*0x44*/ { "value": { "syntax": "INC %eSP" } },
-		/*0x45*/ { "value": { "syntax": "INC %eBP" } },
-		/*0x46*/ { "value": { "syntax": "INC %eSI" } },
-		/*0x47*/ { "value": { "syntax": "INC %eDI" } },
-		/*0x48*/ {
+		{
+			"_comment": "0x40",
+			"value": { "syntax": "INC %eAX" }
+		},
+		{
+			"_comment": "0x41",
+			"value": { "syntax": "INC %eCX" }
+		},
+		{
+			"_comment": "0x42",
+			"value": { "syntax": "INC %eDX" }
+		},
+		{
+			"_comment": "0x43",
+			"value": { "syntax": "INC %eBX" }
+		},
+		{
+			"_comment": "0x44",
+			"value": { "syntax": "INC %eSP" }
+		},
+		{
+			"_comment": "0x45",
+			"value": { "syntax": "INC %eBP" }
+		},
+		{
+			"_comment": "0x46",
+			"value": { "syntax": "INC %eSI" }
+		},
+		{
+			"_comment": "0x47",
+			"value": { "syntax": "INC %eDI" }
+		},
+		{
+			"_comment": "0x48",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "DEC %eAX" }
 		},
-		/*0x49*/ {
+		{
+			"_comment": "0x49",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "DEC %eCX" }
 		},
-		/*0x4A*/ {
+		{
+			"_comment": "0x4A",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "DEC %eDX" }
 		},
-		/*0x4B*/ {
+		{
+			"_comment": "0x4B",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "DEC %eBX" }
 		},
-		/*0x4C*/ {
+		{
+			"_comment": "0x4C",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "DEC %eSP" }
 		},
-		/*0x4D*/ {
+		{
+			"_comment": "0x4D",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "DEC %eBP" }
 		},
-		/*0x4E*/ {
+		{
+			"_comment": "0x4E",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "DEC %eSI" }
 		},
-		/*0x4F*/ {
+		{
+			"_comment": "0x4F",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "DEC %eDI" }
 		},
-		/*0x50*/ {
+		{
+			"_comment": "0x50",
 			"opcodes": [
 				{ "value": { "syntax": "PUSH %rAX" } },
 				{
@@ -162,7 +358,8 @@
 				}
 			]
 		},
-		/*0x51*/ {
+		{
+			"_comment": "0x51",
 			"opcodes": [
 				{ "value": { "syntax": "PUSH %rCX" } },
 				{
@@ -174,7 +371,8 @@
 				}
 			]
 		},
-		/*0x52*/ {
+		{
+			"_comment": "0x52",
 			"opcodes": [
 				{ "value": { "syntax": "PUSH %rDX" } },
 				{
@@ -186,7 +384,8 @@
 				}
 			]
 		},
-		/*0x53*/ {
+		{
+			"_comment": "0x53",
 			"opcodes": [
 				{ "value": { "syntax": "PUSH %rBX" } },
 				{
@@ -198,7 +397,8 @@
 				}
 			]
 		},
-		/*0x54*/ {
+		{
+			"_comment": "0x54",
 			"opcodes": [
 				{ "value": { "syntax": "PUSH %rSP" } },
 				{
@@ -210,7 +410,8 @@
 				}
 			]
 		},
-		/*0x55*/ {
+		{
+			"_comment": "0x55",
 			"opcodes": [
 				{ "value": { "syntax": "PUSH %rBP" } },
 				{
@@ -222,7 +423,8 @@
 				}
 			]
 		},
-		/*0x56*/ {
+		{
+			"_comment": "0x56",
 			"opcodes": [
 				{ "value": { "syntax": "PUSH %rSI" } },
 				{
@@ -234,7 +436,8 @@
 				}
 			]
 		},
-		/*0x57*/ {
+		{
+			"_comment": "0x57",
 			"opcodes": [
 				{ "value": { "syntax": "PUSH %rDI" } },
 				{
@@ -246,7 +449,8 @@
 				}
 			]
 		},
-		/*0x58*/ {
+		{
+			"_comment": "0x58",
 			"opcodes": [
 				{ "value": { "syntax": "POP %rAX" } },
 				{
@@ -258,7 +462,8 @@
 				}
 			]
 		},
-		/*0x59*/ {
+		{
+			"_comment": "0x59",
 			"opcodes": [
 				{ "value": { "syntax": "POP %rCX" } },
 				{
@@ -270,7 +475,8 @@
 				}
 			]
 		},
-		/*0x5A*/ {
+		{
+			"_comment": "0x5A",
 			"opcodes": [
 				{ "value": { "syntax": "POP %rDX" } },
 				{
@@ -282,7 +488,8 @@
 				}
 			]
 		},
-		/*0x5B*/ {
+		{
+			"_comment": "0x5B",
 			"opcodes": [
 				{ "value": { "syntax": "POP %rBX" } },
 				{
@@ -294,7 +501,8 @@
 				}
 			]
 		},
-		/*0x5C*/ {
+		{
+			"_comment": "0x5C",
 			"opcodes": [
 				{ "value": { "syntax": "POP %rSP" } },
 				{
@@ -306,7 +514,8 @@
 				}
 			]
 		},
-		/*0x5D*/ {
+		{
+			"_comment": "0x5D",
 			"opcodes": [
 				{ "value": { "syntax": "POP %rBP" } },
 				{
@@ -318,7 +527,8 @@
 				}
 			]
 		},
-		/*0x5E*/ {
+		{
+			"_comment": "0x5E",
 			"opcodes": [
 				{ "value": { "syntax": "POP %rSI" } },
 				{
@@ -330,7 +540,8 @@
 				}
 			]
 		},
-		/*0x5F*/ {
+		{
+			"_comment": "0x5F",
 			"opcodes": [
 				{ "value": { "syntax": "POP %rDI" } },
 				{
@@ -342,7 +553,8 @@
 				}
 			]
 		},
-		/*0x60*/ {
+		{
+			"_comment": "0x60",
 			"opcodes": [
 				{
 					"key": {
@@ -360,7 +572,8 @@
 				}
 			]
 		},
-		/*0x61*/ {
+		{
+			"_comment": "0x61",
 			"opcodes": [
 				{
 					"key": {
@@ -378,11 +591,13 @@
 				}
 			]
 		},
-		/*0x62*/ {
+		{
+			"_comment": "0x62",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "BOUND %Gv, %Ma" }
 		},
-		/*0x63*/ {
+		{
+			"_comment": "0x63",
 			"opcodes": [
 				{
 					"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
@@ -394,16 +609,44 @@
 				}
 			]
 		},
-		/*0x64*/ { "value": { "valid": false } },
-		/*0x65*/ { "value": { "valid": false } },
-		/*0x66*/ { "value": { "valid": false } },
-		/*0x67*/ { "value": { "valid": false } },
-		/*0x68*/ { "value": { "syntax": "PUSH %Iz" } },
-		/*0x69*/ { "value": { "syntax": "IMUL %Gv, %Ev, %Iz" } },
-		/*0x6A*/ { "value": { "syntax": "PUSH %Ib" } },
-		/*0x6B*/ { "value": { "syntax": "IMUL %Gv, %Ev, %Ib" } },
-		/*0x6C*/ { "value": { "syntax": "INSB %Yb, %DX" } },
-		/*0x6D*/ {
+		{
+			"_comment": "0x64",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0x65",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0x66",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0x67",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0x68",
+			"value": { "syntax": "PUSH %Iz" }
+		},
+		{
+			"_comment": "0x69",
+			"value": { "syntax": "IMUL %Gv, %Ev, %Iz" }
+		},
+		{
+			"_comment": "0x6A",
+			"value": { "syntax": "PUSH %Ib" }
+		},
+		{
+			"_comment": "0x6B",
+			"value": { "syntax": "IMUL %Gv, %Ev, %Ib" }
+		},
+		{
+			"_comment": "0x6C",
+			"value": { "syntax": "INSB %Yb, %DX" }
+		},
+		{
+			"_comment": "0x6D",
 			"opcodes": [
 				{
 					"key": { "operandSize": 16 },
@@ -415,8 +658,12 @@
 				}
 			]
 		},
-		/*0x6E*/ { "value": { "syntax": "OUTSB %DX, %Xb" } },
-		/*0x6F*/ {
+		{
+			"_comment": "0x6E",
+			"value": { "syntax": "OUTSB %DX, %Xb" }
+		},
+		{
+			"_comment": "0x6F",
 			"opcodes": [
 				{
 					"key": { "operandSize": 16 },
@@ -428,39 +675,136 @@
 				}
 			]
 		},
-		/*0x70*/ { "value": { "syntax": "JO %Jb" } },
-		/*0x71*/ { "value": { "syntax": "JNO %Jb" } },
-		/*0x72*/ { "value": { "syntax": "JB %Jb" } },
-		/*0x73*/ { "value": { "syntax": "JNB %Jb" } },
-		/*0x74*/ { "value": { "syntax": "JZ %Jb" } },
-		/*0x75*/ { "value": { "syntax": "JNZ %Jb" } },
-		/*0x76*/ { "value": { "syntax": "JBE %Jb" } },
-		/*0x77*/ { "value": { "syntax": "JNBE %Jb" } },
-		/*0x78*/ { "value": { "syntax": "JS %Jb" } },
-		/*0x79*/ { "value": { "syntax": "JNS %Jb" } },
-		/*0x7A*/ { "value": { "syntax": "JP %Jb" } },
-		/*0x7B*/ { "value": { "syntax": "JNP %Jb" } },
-		/*0x7C*/ { "value": { "syntax": "JL %Jb" } },
-		/*0x7D*/ { "value": { "syntax": "JNL %Jb" } },
-		/*0x7E*/ { "value": { "syntax": "JLE %Jb" } },
-		/*0x7F*/ { "value": { "syntax": "JNLE %Jb" } },
-		/*0x80*/ { "value": { "valid": false } },
-		/*0x81*/ { "value": { "valid": false } },
-		/*0x82*/ { "value": { "valid": false } },
-		/*0x83*/ { "value": { "valid": false } },
-		/*0x84*/ { "value": { "syntax": "TEST %Eb, %Gb" } },
-		/*0x85*/ { "value": { "syntax": "TEST %Ev, %Gv" } },
-		/*0x86*/ { "value": { "syntax": "XCHG %Eb, %Gb" } },
-		/*0x87*/ { "value": { "syntax": "XCHG %Ev, %Gv" } },
-		/*0x88*/ { "value": { "syntax": "MOV %Eb, %Gb" } },
-		/*0x89*/ { "value": { "syntax": "MOV %Ev, %Gv" } },
-		/*0x8A*/ { "value": { "syntax": "MOV %Gb, %Eb" } },
-		/*0x8B*/ { "value": { "syntax": "MOV %Gv, %Ev" } },
-		/*0x8C*/ { "value": { "syntax": "MOV %Mw/Rv, %Sw" } },
-		/*0x8D*/ { "value": { "syntax": "LEA %Gv, %M" } },
-		/*0x8E*/ { "value": { "syntax": "MOV %Sw, %Ew" } },
-		/*0x8F*/ { "value": { "valid": false } },
-		/*0x90*/ {
+		{
+			"_comment": "0x70",
+			"value": { "syntax": "JO %Jb" }
+		},
+		{
+			"_comment": "0x71",
+			"value": { "syntax": "JNO %Jb" }
+		},
+		{
+			"_comment": "0x72",
+			"value": { "syntax": "JB %Jb" }
+		},
+		{
+			"_comment": "0x73",
+			"value": { "syntax": "JNB %Jb" }
+		},
+		{
+			"_comment": "0x74",
+			"value": { "syntax": "JZ %Jb" }
+		},
+		{
+			"_comment": "0x75",
+			"value": { "syntax": "JNZ %Jb" }
+		},
+		{
+			"_comment": "0x76",
+			"value": { "syntax": "JBE %Jb" }
+		},
+		{
+			"_comment": "0x77",
+			"value": { "syntax": "JNBE %Jb" }
+		},
+		{
+			"_comment": "0x78",
+			"value": { "syntax": "JS %Jb" }
+		},
+		{
+			"_comment": "0x79",
+			"value": { "syntax": "JNS %Jb" }
+		},
+		{
+			"_comment": "0x7A",
+			"value": { "syntax": "JP %Jb" }
+		},
+		{
+			"_comment": "0x7B",
+			"value": { "syntax": "JNP %Jb" }
+		},
+		{
+			"_comment": "0x7C",
+			"value": { "syntax": "JL %Jb" }
+		},
+		{
+			"_comment": "0x7D",
+			"value": { "syntax": "JNL %Jb" }
+		},
+		{
+			"_comment": "0x7E",
+			"value": { "syntax": "JLE %Jb" }
+		},
+		{
+			"_comment": "0x7F",
+			"value": { "syntax": "JNLE %Jb" }
+		},
+		{
+			"_comment": "0x80",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0x81",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0x82",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0x83",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0x84",
+			"value": { "syntax": "TEST %Eb, %Gb" }
+		},
+		{
+			"_comment": "0x85",
+			"value": { "syntax": "TEST %Ev, %Gv" }
+		},
+		{
+			"_comment": "0x86",
+			"value": { "syntax": "XCHG %Eb, %Gb" }
+		},
+		{
+			"_comment": "0x87",
+			"value": { "syntax": "XCHG %Ev, %Gv" }
+		},
+		{
+			"_comment": "0x88",
+			"value": { "syntax": "MOV %Eb, %Gb" }
+		},
+		{
+			"_comment": "0x89",
+			"value": { "syntax": "MOV %Ev, %Gv" }
+		},
+		{
+			"_comment": "0x8A",
+			"value": { "syntax": "MOV %Gb, %Eb" }
+		},
+		{
+			"_comment": "0x8B",
+			"value": { "syntax": "MOV %Gv, %Ev" }
+		},
+		{
+			"_comment": "0x8C",
+			"value": { "syntax": "MOV %Mw/Rv, %Sw" }
+		},
+		{
+			"_comment": "0x8D",
+			"value": { "syntax": "LEA %Gv, %M" }
+		},
+		{
+			"_comment": "0x8E",
+			"value": { "syntax": "MOV %Sw, %Ew" }
+		},
+		{
+			"_comment": "0x8F",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0x90",
 			"opcodes": [
 				{ "value": { "syntax": "NOP" } },
 				{
@@ -476,7 +820,8 @@
 				}
 			]
 		},
-		/*0x91*/ {
+		{
+			"_comment": "0x91",
 			"opcodes": [
 				{ "value": { "syntax": "XCHG %rCX, %rAX" } },
 				{
@@ -488,7 +833,8 @@
 				}
 			]
 		},
-		/*0x92*/ {
+		{
+			"_comment": "0x92",
 			"opcodes": [
 				{ "value": { "syntax": "XCHG %rDX, %rAX" } },
 				{
@@ -500,7 +846,8 @@
 				}
 			]
 		},
-		/*0x93*/ {
+		{
+			"_comment": "0x93",
 			"opcodes": [
 				{ "value": { "syntax": "XCHG %rBX, %rAX" } },
 				{
@@ -512,7 +859,8 @@
 				}
 			]
 		},
-		/*0x94*/ {
+		{
+			"_comment": "0x94",
 			"opcodes": [
 				{ "value": { "syntax": "XCHG %rSP, %rAX" } },
 				{
@@ -524,7 +872,8 @@
 				}
 			]
 		},
-		/*0x95*/ {
+		{
+			"_comment": "0x95",
 			"opcodes": [
 				{ "value": { "syntax": "XCHG %rBP, %rAX" } },
 				{
@@ -536,7 +885,8 @@
 				}
 			]
 		},
-		/*0x96*/ {
+		{
+			"_comment": "0x96",
 			"opcodes": [
 				{ "value": { "syntax": "XCHG %rSI, %rAX" } },
 				{
@@ -548,7 +898,8 @@
 				}
 			]
 		},
-		/*0x97*/ {
+		{
+			"_comment": "0x97",
 			"opcodes": [
 				{ "value": { "syntax": "XCHG %rDI, %rAX" } },
 				{
@@ -560,7 +911,8 @@
 				}
 			]
 		},
-		/*0x98*/ {
+		{
+			"_comment": "0x98",
 			"opcodes": [
 				{
 					"key": { "operandSize": 16 },
@@ -579,7 +931,8 @@
 				}
 			]
 		},
-		/*0x99*/ {
+		{
+			"_comment": "0x99",
 			"opcodes": [
 				{
 					"key": { "operandSize": 16 },
@@ -598,9 +951,16 @@
 				}
 			]
 		},
-		/*0x9A*/ { "value": { "syntax": "CALL %Ap" } },
-		/*0x9B*/ { "value": { "syntax": "FWAIT" } },
-		/*0x9C*/ {
+		{
+			"_comment": "0x9A",
+			"value": { "syntax": "CALL %Ap" }
+		},
+		{
+			"_comment": "0x9B",
+			"value": { "syntax": "FWAIT" }
+		},
+		{
+			"_comment": "0x9C",
 			"opcodes": [
 				{
 					"key": { "operandSize": 16 },
@@ -619,7 +979,8 @@
 				}
 			]
 		},
-		/*0x9D*/ {
+		{
+			"_comment": "0x9D",
 			"opcodes": [
 				{
 					"key": { "operandSize": 16 },
@@ -638,14 +999,36 @@
 				}
 			]
 		},
-		/*0x9E*/ { "value": { "syntax": "SAHF" } },
-		/*0x9F*/ { "value": { "syntax": "LAHF" } },
-		/*0xA0*/ { "value": { "syntax": "MOV %AL, %Ob" } },
-		/*0xA1*/ { "value": { "syntax": "MOV %rAX, %Ov" } },
-		/*0xA2*/ { "value": { "syntax": "MOV %Ob, %AL" } },
-		/*0xA3*/ { "value": { "syntax": "MOV %Ov, %rAX" } },
-		/*0xA4*/ { "value": { "syntax": "MOVSB %Yb, %Xb" } },
-		/*0xA5*/ {
+		{
+			"_comment": "0x9E",
+			"value": { "syntax": "SAHF" }
+		},
+		{
+			"_comment": "0x9F",
+			"value": { "syntax": "LAHF" }
+		},
+		{
+			"_comment": "0xA0",
+			"value": { "syntax": "MOV %AL, %Ob" }
+		},
+		{
+			"_comment": "0xA1",
+			"value": { "syntax": "MOV %rAX, %Ov" }
+		},
+		{
+			"_comment": "0xA2",
+			"value": { "syntax": "MOV %Ob, %AL" }
+		},
+		{
+			"_comment": "0xA3",
+			"value": { "syntax": "MOV %Ov, %rAX" }
+		},
+		{
+			"_comment": "0xA4",
+			"value": { "syntax": "MOVSB %Yb, %Xb" }
+		},
+		{
+			"_comment": "0xA5",
 			"opcodes": [
 				{
 					"key": { "operandSize": 16 },
@@ -664,8 +1047,12 @@
 				}
 			]
 		},
-		/*0xA6*/ { "value": { "syntax": "CMPSB %Xb, %Yb" } },
-		/*0xA7*/ {
+		{
+			"_comment": "0xA6",
+			"value": { "syntax": "CMPSB %Xb, %Yb" }
+		},
+		{
+			"_comment": "0xA7",
 			"opcodes": [
 				{
 					"key": { "operandSize": 16 },
@@ -684,10 +1071,20 @@
 				}
 			]
 		},
-		/*0xA8*/ { "value": { "syntax": "TEST %AL, %Ib" } },
-		/*0xA9*/ { "value": { "syntax": "TEST %rAX, %Iz" } },
-		/*0xAA*/ { "value": { "syntax": "STOSB %Yb, %AL" } },
-		/*0xAB*/ {
+		{
+			"_comment": "0xA8",
+			"value": { "syntax": "TEST %AL, %Ib" }
+		},
+		{
+			"_comment": "0xA9",
+			"value": { "syntax": "TEST %rAX, %Iz" }
+		},
+		{
+			"_comment": "0xAA",
+			"value": { "syntax": "STOSB %Yb, %AL" }
+		},
+		{
+			"_comment": "0xAB",
 			"opcodes": [
 				{
 					"key": { "operandSize": 16 },
@@ -706,8 +1103,12 @@
 				}
 			]
 		},
-		/*0xAC*/ { "value": { "syntax": "LODSB %AL, %Xb" } },
-		/*0xAD*/ {
+		{
+			"_comment": "0xAC",
+			"value": { "syntax": "LODSB %AL, %Xb" }
+		},
+		{
+			"_comment": "0xAD",
 			"opcodes": [
 				{
 					"key": { "operandSize": 16 },
@@ -726,8 +1127,12 @@
 				}
 			]
 		},
-		/*0xAE*/ { "value": { "syntax": "SCASB %AL, %Yb" } },
-		/*0xAF*/ {
+		{
+			"_comment": "0xAE",
+			"value": { "syntax": "SCASB %AL, %Yb" }
+		},
+		{
+			"_comment": "0xAF",
 			"opcodes": [
 				{
 					"key": { "operandSize": 16 },
@@ -746,7 +1151,8 @@
 				}
 			]
 		},
-		/*0xB0*/ {
+		{
+			"_comment": "0xB0",
 			"opcodes": [
 				{
 					"value": { "syntax": "MOV %AL, %Ib" }
@@ -757,7 +1163,8 @@
 				}
 			]
 		},
-		/*0xB1*/ {
+		{
+			"_comment": "0xB1",
 			"opcodes": [
 				{
 					"value": { "syntax": "MOV %CL, %Ib" }
@@ -768,7 +1175,8 @@
 				}
 			]
 		},
-		/*0xB2*/ {
+		{
+			"_comment": "0xB2",
 			"opcodes": [
 				{
 					"value": { "syntax": "MOV %DL, %Ib" }
@@ -779,7 +1187,8 @@
 				}
 			]
 		},
-		/*0xB3*/ {
+		{
+			"_comment": "0xB3",
 			"opcodes": [
 				{
 					"value": { "syntax": "MOV %BL, %Ib" }
@@ -790,7 +1199,8 @@
 				}
 			]
 		},
-		/*0xB4*/ {
+		{
+			"_comment": "0xB4",
 			"opcodes": [
 				{
 					"value": { "syntax": "MOV %AH, %Ib" }
@@ -801,7 +1211,8 @@
 				}
 			]
 		},
-		/*0xB5*/ {
+		{
+			"_comment": "0xB5",
 			"opcodes": [
 				{
 					"value": { "syntax": "MOV %CH, %Ib" }
@@ -812,7 +1223,8 @@
 				}
 			]
 		},
-		/*0xB6*/ {
+		{
+			"_comment": "0xB6",
 			"opcodes": [
 				{
 					"value": { "syntax": "MOV %DH, %Ib" }
@@ -823,7 +1235,8 @@
 				}
 			]
 		},
-		/*0xB7*/ {
+		{
+			"_comment": "0xB7",
 			"opcodes": [
 				{
 					"value": { "syntax": "MOV %BH, %Ib" }
@@ -834,7 +1247,8 @@
 				}
 			]
 		},
-		/*0xB8*/ {
+		{
+			"_comment": "0xB8",
 			"opcodes": [
 				{
 					"value": { "syntax": "MOV %rAX, %Iv" }
@@ -845,7 +1259,8 @@
 				}
 			]
 		},
-		/*0xB9*/ {
+		{
+			"_comment": "0xB9",
 			"opcodes": [
 				{
 					"value": { "syntax": "MOV %rCX, %Iv" }
@@ -856,7 +1271,8 @@
 				}
 			]
 		},
-		/*0xBA*/ {
+		{
+			"_comment": "0xBA",
 			"opcodes": [
 				{
 					"value": { "syntax": "MOV %rDX, %Iv" }
@@ -867,7 +1283,8 @@
 				}
 			]
 		},
-		/*0xBB*/ {
+		{
+			"_comment": "0xBB",
 			"opcodes": [
 				{
 					"value": { "syntax": "MOV %rBX, %Iv" }
@@ -878,7 +1295,8 @@
 				}
 			]
 		},
-		/*0xBC*/ {
+		{
+			"_comment": "0xBC",
 			"opcodes": [
 				{
 					"value": { "syntax": "MOV %rSP, %Iv" }
@@ -889,7 +1307,8 @@
 				}
 			]
 		},
-		/*0xBD*/ {
+		{
+			"_comment": "0xBD",
 			"opcodes": [
 				{
 					"value": { "syntax": "MOV %rBP, %Iv" }
@@ -900,7 +1319,8 @@
 				}
 			]
 		},
-		/*0xBE*/ {
+		{
+			"_comment": "0xBE",
 			"opcodes": [
 				{
 					"value": { "syntax": "MOV %rSI, %Iv" }
@@ -911,7 +1331,8 @@
 				}
 			]
 		},
-		/*0xBF*/ {
+		{
+			"_comment": "0xBF",
 			"opcodes": [
 				{
 					"value": { "syntax": "MOV %rDI, %Iv" }
@@ -922,31 +1343,71 @@
 				}
 			]
 		},
-		/*0xC0*/ { "value": { "valid": false } },
-		/*0xC1*/ { "value": { "valid": false } },
-		/*0xC2*/ { "value": { "valid": false } },
-		/*0xC3*/ { "value": { "valid": false } },
-		/*0xC4*/ { "value": { "syntax": "RET NEAR %Iw" } },
-		/*0xC5*/ { "value": { "syntax": "RET NEAR" } },
-		/*0xC6*/ {
+		{
+			"_comment": "0xC0",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xC1",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xC2",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xC3",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xC4",
+			"value": { "syntax": "RET NEAR %Iw" }
+		},
+		{
+			"_comment": "0xC5",
+			"value": { "syntax": "RET NEAR" }
+		},
+		{
+			"_comment": "0xC6",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "LES %Gz, %Mp" }
 		},
-		/*0xC7*/ {
+		{
+			"_comment": "0xC8",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "LDS %Gz, %Mp" }
 		},
-		/*0xC8*/ { "value": { "syntax": "ENTER %Iw, %Ib" } },
-		/*0xC9*/ { "value": { "syntax": "LEAVE" } },
-		/*0xCA*/ { "value": { "syntax": "RET FAR %Iw" } },
-		/*0xCB*/ { "value": { "syntax": "RET FAR" } },
-		/*0xCC*/ { "value": { "syntax": "INT3" } },
-		/*0xCD*/ { "value": { "syntax": "INT %Ib" } },
-		/*0xCE*/ {
+		{
+			"_comment": "0xC8",
+			"value": { "syntax": "ENTER %Iw, %Ib" }
+		},
+		{
+			"_comment": "0xC9",
+			"value": { "syntax": "LEAVE" }
+		},
+		{
+			"_comment": "0xCA",
+			"value": { "syntax": "RET FAR %Iw" }
+		},
+		{
+			"_comment": "0xCB",
+			"value": { "syntax": "RET FAR" }
+		},
+		{
+			"_comment": "0xCC",
+			"value": { "syntax": "INT3" }
+		},
+		{
+			"_comment": "0xCD",
+			"value": { "syntax": "INT %Ib" }
+		},
+		{
+			"_comment": "0xCE",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "INTO" }
 		},
-		/*0xCF*/ {
+		{
+			"_comment": "0xCF",
 			"opcodes": [
 				{
 					"key": { "operandSize": 16 },
@@ -965,20 +1426,38 @@
 				}
 			]
 		},
-		/*0xD0*/ { "value": { "valid": false } },
-		/*0xD1*/ { "value": { "valid": false } },
-		/*0xD2*/ { "value": { "valid": false } },
-		/*0xD3*/ { "value": { "valid": false } },
-		/*0xD4*/ {
+		{
+			"_comment": "0xD0",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xD1",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xD2",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xD3",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xD4",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "AAM %Ib" }
 		},
-		/*0xD5*/ {
+		{
+			"_comment": "0xD5",
 			"key": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "AAD %Ib" }
 		},
-		/*0xD6*/ { "value": { "valid": false } },
-		/*0xD7*/ {
+		{
+			"_comment": "0xD6",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xD7",
 			"opcodes": [
 				{ "value": { "syntax": "XLAT" } },
 				{
@@ -987,51 +1466,167 @@
 				}
 			]
 		},
-		/*0xD8*/ { "value": { "valid": false } },
-		/*0xD9*/ { "value": { "valid": false } },
-		/*0xDA*/ { "value": { "valid": false } },
-		/*0xDB*/ { "value": { "valid": false } },
-		/*0xDC*/ { "value": { "valid": false } },
-		/*0xDD*/ { "value": { "valid": false } },
-		/*0xDE*/ { "value": { "valid": false } },
-		/*0xDF*/ { "value": { "valid": false } },
-		/*0xE0*/ { "value": { "syntax": "LOOPNE %Jb" } },
-		/*0xE1*/ { "value": { "syntax": "LOOPE %Jb" } },
-		/*0xE2*/ { "value": { "syntax": "LOOP %Jb" } },
-		/*0xE3*/ {
+		{
+			"_comment": "0xD8",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xD9",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xDA",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xDB",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xDC",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xDD",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xDE",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xDF",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xE0",
+			"value": { "syntax": "LOOPNE %Jb" }
+		},
+		{
+			"_comment": "0xE1",
+			"value": { "syntax": "LOOPE %Jb" }
+		},
+		{
+			"_comment": "0xE2",
+			"value": { "syntax": "LOOP %Jb" }
+		},
+		{
+			"_comment": "0xE3",
 			"key": { "modes": [ "LONG MODE" ] },
 			"value": { "syntax": "JRCXZ %Jb" }
 		},
-		/*0xE4*/ { "value": { "syntax": "IN %AL, %Ib" } },
-		/*0xE5*/ { "value": { "syntax": "IN %eAX, %Ib" } },
-		/*0xE6*/ { "value": { "syntax": "OUT %Ib, %AL" } },
-		/*0xE7*/ { "value": { "syntax": "OUT %Ib, %eAX" } },
-		/*0xE8*/ { "value": { "syntax": "CALL %Jz" } },
-		/*0xE9*/ { "value": { "syntax": "JMP %Jz" } },
-		/*0xEA*/ {
+		{
+			"_comment": "0xE4",
+			"value": { "syntax": "IN %AL, %Ib" }
+		},
+		{
+			"_comment": "0xE5",
+			"value": { "syntax": "IN %eAX, %Ib" }
+		},
+		{
+			"_comment": "0xE6",
+			"value": { "syntax": "OUT %Ib, %AL" }
+		},
+		{
+			"_comment": "0xE7",
+			"value": { "syntax": "OUT %Ib, %eAX" }
+		},
+		{
+			"_comment": "0xE8",
+			"value": { "syntax": "CALL %Jz" }
+		},
+		{
+			"_comment": "0xE9",
+			"value": { "syntax": "JMP %Jz" }
+		},
+		{
+			"_comment": "0xEA",
 			"keys": { "modes": [ "LEGACY MODE", "PROTECTED MODE" ] },
 			"value": { "syntax": "JMP %Ap" }
 		},
-		/*0xEB*/ { "value": { "syntax": "JMP %Jb" } },
-		/*0xEC*/ { "value": { "syntax": "IN %AL, %DX" } },
-		/*0xED*/ { "value": { "syntax": "IN %eAX, %DX" } },
-		/*0xEE*/ { "value": { "syntax": "OUT %DX, %AL" } },
-		/*0xEF*/ { "value": { "syntax": "OUT %DX, %eAX" } },
-		/*0xF0*/ { "value": { "valid": false } },
-		/*0xF1*/ { "value": { "syntax": "INT1" } },
-		/*0xF2*/ { "value": { "valid": false } },
-		/*0xF3*/ { "value": { "valid": false } },
-		/*0xF4*/ { "value": { "syntax": "HLT" } },
-		/*0xF5*/ { "value": { "syntax": "CMC" } },
-		/*0xF6*/ { "value": { "valid": false } },
-		/*0xF7*/ { "value": { "valid": false } },
-		/*0xF8*/ { "value": { "syntax": "CLC" } },
-		/*0xF9*/ { "value": { "syntax": "STC" } },
-		/*0xFA*/ { "value": { "syntax": "CLI" } },
-		/*0xFB*/ { "value": { "syntax": "STI" } },
-		/*0xFC*/ { "value": { "syntax": "CLD" } },
-		/*0xFD*/ { "value": { "syntax": "STD" } },
-		/*0xFE*/ { "value": { "valid": false } },
-		/*0xFF*/ { "value": { "valid": false } }
+		{
+			"_comment": "0xEB",
+			"value": { "syntax": "JMP %Jb" }
+		},
+		{
+			"_comment": "0xEC",
+			"value": { "syntax": "IN %AL, %DX" }
+		},
+		{
+			"_comment": "0xED",
+			"value": { "syntax": "IN %eAX, %DX" }
+		},
+		{
+			"_comment": "0xEE",
+			"value": { "syntax": "OUT %DX, %AL" }
+		},
+		{
+			"_comment": "0xEF",
+			"value": { "syntax": "OUT %DX, %eAX" }
+		},
+		{
+			"_comment": "0xF0",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xF1",
+			"value": { "syntax": "INT1" }
+		},
+		{
+			"_comment": "0xF2",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xF3",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xF4",
+			"value": { "syntax": "HLT" }
+		},
+		{
+			"_comment": "0xF5",
+			"value": { "syntax": "CMC" }
+		},
+		{
+			"_comment": "0xF6",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xF7",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xF8",
+			"value": { "syntax": "CLC" }
+		},
+		{
+			"_comment": "0xF9",
+			"value": { "syntax": "STC" }
+		},
+		{
+			"_comment": "0xFA",
+			"value": { "syntax": "CLI" }
+		},
+		{
+			"_comment": "0xFB",
+			"value": { "syntax": "STI" }
+		},
+		{
+			"_comment": "0xFC",
+			"value": { "syntax": "CLD" }
+		},
+		{
+			"_comment": "0xFD",
+			"value": { "syntax": "STD" }
+		},
+		{
+			"_comment": "0xFE",
+			"value": { "valid": false }
+		},
+		{
+			"_comment": "0xFF",
+			"value": { "valid": false }
+		}
 	]
 }
